@@ -20,9 +20,13 @@
 
     <Button
         android:id="@+id/submitBtn"
-        android:layout_width="329dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="96dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/logo_blue"
+        android:layout_marginTop="64dp"
         android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -31,9 +35,9 @@
 
     <EditText
         android:id="@+id/descrpitionEt"
-        android:layout_width="254dp"
+        android:layout_width="0dp"
         android:layout_height="116dp"
-        android:layout_marginStart="34dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="188dp"
         android:layout_marginEnd="40dp"
         android:ems="10"
@@ -46,10 +50,11 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="98dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Add task"
+        android:text="Add New task"
+        android:textColor="@color/logo_blue"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -80,9 +85,13 @@
 
     <Button
         android:id="@+id/managerStatsBtn"
-        android:layout_width="324dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="35dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/logo_blue"
+        android:layout_marginTop="36dp"
         android:text="Statistics"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,10 +99,13 @@
 
     <Button
         android:id="@+id/managerLogoutBtn"
-        android:layout_width="324dp"
-        android:layout_height="46dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/logo_blue"
         android:layout_marginTop="36dp"
-
         android:text="logout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
