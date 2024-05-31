@@ -99,9 +99,9 @@ class WorkerActivity : AppCompatActivity(), OnMapReadyCallback {
                     location.longitude
                 )
 
-//                if (distance <= 20) {
-//                    return
-//                }
+                if (distance <= 20) {
+                    return
+                }
                 this@WorkerActivity.currentLocation = location
                 showNearestTasks()
             }
